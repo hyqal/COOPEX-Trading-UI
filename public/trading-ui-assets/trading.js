@@ -1,6 +1,6 @@
 window.onload = function(){ 
 
-$('.picture')[0].style.backgroundImage = `url("https://coopex.market/img/${gon.market.ask_unit.toUpperCase()}.png")`
+$('.picture')[0].style.backgroundImage = `url("http://ex.cexo.io/img/${gon.market.ask_unit.toUpperCase()}.png")`
 
 setInterval(function(){
 let table = $(".order-book-ask tr");
